@@ -1,0 +1,6 @@
+bear:
+  build: .
+  links:
+    - redis
+redis:
+  image: redis
